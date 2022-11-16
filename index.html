@@ -8,12 +8,51 @@
   </head>
   <body>
     <header>
+        <button
+          aria-controls="mainNav"
+          @click="menuIsOpen = ! menuIsOpen"
+          class="header__menuBtn"
+        >
+        </button>
 
-    </header>
+        <h1>Test de menu articles</h1>
 
-    <main>
-        <h1>Accueil</h1>
-    </main>
+        <nav
+          id="mainNav"
+          x-show="menuIsOpen"
+          x-transition.duration.1000ms
+          class="menu"
+        >
+          <ul>
+             <li><a href="evangelion.html"></a></li>
+          </ul>
+  
+          <ul>
+             <li><a href="ikigami.html">Ikigami</a></li>
+          </ul>
+  
+          <ul>
+            <li><a href="daft_punk.html">Daft Punk</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="star_wars.html">Daft Punk</a></li>
+          </ul>
+  
+          <ul>
+            <li><a href="espoirs.html">Daft Punk</a></li>
+          </ul>
+  
+          <ul>
+            <li><a href="risques.html">Daft Punk</a></li>
+          </ul>
+  
+        </nav>
+  
+      </header> 
+
+
+    
   </body>
 
 
