@@ -8,6 +8,46 @@
 </head>
 
 <body>
+    <header>
+        <h1>Star Wars</h1>
+          <button
+            aria-controls="mainNav"
+            @click="menuIsOpen = ! menuIsOpen"
+            class="header__menuBtn">
+  
+          <nav
+            id="mainNav"
+            x-show="menuIsOpen"
+            x-transition.duration.1000ms
+            class="menu">
+            <ul>
+              <li><a href="evangelion.html">Evangelion</a></li>
+           
+              <li><a href="ikigami.html">Ikigami</a></li>
+           
+              <li><a href="daft_punk.html">Daft Punk</a></li>
+           
+              <li><a href="star_wars.html">Star Wars</a></li>
+           
+              <li><a href="espoirs.html">Hopes</a></li>
+           
+              <li><a href="risques.html">Risks</a></li>
+           
+              <li><a href="contact.html">Contact</a></li>
+           
+              <li><a href="apropos.html">About us</a></li>
+           
+              <li><a href="autresprojets.html">Others Project</a></li>
+         
+              <li><a href="glossaire.html">Glossary</a></li>
+            </ul>
+       </nav>
+      </button>
+    </header>
+
+    <main>
+    <article>    
+    
     
     <img src="/public/img/images-dystopie/The_Machines 1.webp">
     
@@ -24,5 +64,7 @@
     <p> This fear is very well illustrated in the Neon Genesis Evangelion serie, because all of the cast have to accept the idea of battling divine creatures, without knowing what they are, what they want or why they want to destroy the world. They must fight things that is out of our minds, knowing one thing : the future of humanity is on their shoulders, they can not fail their missions. All of these informations put them in existential questions and philosophical choices.</p>
     <p>At the end, science-fiction shows us some terrifying concepts : the lose of controls over the technology, to a replacement of this one on the humanity, that could be a threat to the most important thing it possess, its freedom. Some works have very well understood this idea, like the movie 2001, space odyssey, or 1984 from Georges Orwell, in these cases, the creepy idea of a dystopic future seems possible, even in a irational way.</p>
 
+    </article>
+    </main>
 </body>
 </html>
