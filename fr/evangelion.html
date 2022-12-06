@@ -9,6 +9,39 @@
 
   <body>
     <main>
+      <header>
+        <h1>Evangelion</h1>
+          <button
+            aria-controls="mainNav"
+            @click="menuIsOpen = ! menuIsOpen"
+            class="header__menuBtn">
+  
+          <nav
+            id="mainNav"
+            x-show="menuIsOpen"
+            x-transition.duration.1000ms
+            class="menu">
+            <ul>
+              <li><a href="evangelion.html">Evangelion</a></li>
+           
+              <li><a href="ikigami.html">Ikigami</a></li>
+           
+              <li><a href="daft_punk.html">Daft Punk</a></li>
+           
+              <li><a href="star_wars.html">Star Wars</a></li>
+           
+              <li><a href="espoirs.html">Espoirs</a></li>
+           
+              <li><a href="risques.html">Risques</a></li>
+           
+              <li><a href="contact.html">Contact</a></li>
+           
+              <li><a href="apropos.html">A Propos de Nous</a></li>
+           
+              <li><a href="autresprojets.html">Autres Projets</a></li>
+         
+              <li><a href="glossaire.html">Glossaire</a></li>
+            </ul>
       <img src="/public/img/images-eva/The End of Evangelion 1.webp">
       
       <p>Le film intitulé « The End of Evangelion » est un long métrage de 85 minutes concluant la série d’animation japonaise « Neon Genesis Evangelion » (note glossaire), écrit par Hideaki Anno. Il est connu pour être un film réclamé par de nombreux fans mécontents de la fin de la série, celle-ci ayant manqué de budget pour conclure son histoire correctement.</p>
