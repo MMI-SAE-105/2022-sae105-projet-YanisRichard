@@ -7,6 +7,40 @@
     <title>Daft Punk</title>
 </head>
 <body>
+    <header>
+        <h1>Daft Punk</h1>
+          <button
+            aria-controls="mainNav"
+            @click="menuIsOpen = ! menuIsOpen"
+            class="header__menuBtn">
+  
+          <nav
+            id="mainNav"
+            x-show="menuIsOpen"
+            x-transition.duration.1000ms
+            class="menu">
+            <ul>
+              <li><a href="evangelion.html">Evangelion</a></li>
+           
+              <li><a href="ikigami.html">Ikigami</a></li>
+           
+              <li><a href="daft_punk.html">Daft Punk</a></li>
+           
+              <li><a href="star_wars.html">Star Wars</a></li>
+           
+              <li><a href="espoirs.html">Espoirs</a></li>
+           
+              <li><a href="risques.html">Risques</a></li>
+           
+              <li><a href="contact.html">Contact</a></li>
+           
+              <li><a href="apropos.html">A Propos de Nous</a></li>
+           
+              <li><a href="autresprojets.html">Autres Projets</a></li>
+         
+              <li><a href="glossaire.html">Glossaire</a></li>
+            </ul>
+
     <img src="../2022-sae105-projet-YanisRichard/public/img/interstella-5555-wallpaper.jpg">
     <p>Le duo iconique des Daft Punk, connu pour leur musique électronique, réalise cette chanson dans un contexte bien particulier.</p>
     <p>        Les deux robots composent leur deuxième album « Discovery » en 2001 , et travaillent sur un projet en parallèle : un film musical en collaboration avec Leiji Matsumoto, le créateur d’Albator. Le projet s’intitule alors Interstella 5555, et constitue un film d’animation quasi-muet, seule la bande son est entendue par le téléspectateur, à la manière de Fantasia 2000.</p>
