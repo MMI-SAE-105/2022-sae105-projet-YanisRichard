@@ -4,10 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Glossaire</title>
+    <title>Glossary</title>
   </head>
 
   <body>
+    <header>
+      <h1>Glossary</h1>
+        <button
+          aria-controls="mainNav"
+          @click="menuIsOpen = ! menuIsOpen"
+          class="header__menuBtn">
+
+        <nav
+          id="mainNav"
+          x-show="menuIsOpen"
+          x-transition.duration.1000ms
+          class="menu">
+          <ul>
+            <li><a href="evangelion.html">Evangelion</a></li>
+         
+            <li><a href="ikigami.html">Ikigami</a></li>
+         
+            <li><a href="daft_punk.html">Daft Punk</a></li>
+         
+            <li><a href="star_wars.html">Star Wars</a></li>
+         
+            <li><a href="espoirs.html">Hopes</a></li>
+         
+            <li><a href="risques.html">Risks</a></li>
+         
+            <li><a href="contact.html">Contact</a></li>
+         
+            <li><a href="apropos.html">About us</a></li>
+         
+            <li><a href="autresprojets.html">Others Project</a></li>
+       
+            <li><a href="glossaire.html">Glossary</a></li>
+          </ul>
+     </nav>
+    </button>
+  </header>
+
     <main>
         <p>-Anges: Dans l’univers de Neon Genesis Evangelion, il s’agit de créatures divines géantes menaçant le monde et l’humanité. Pour riposter, cette dernière leur envoie des Evangelions, afin de les pourfendre et de sauver ce qu’il reste des hommes.</p>
         <p>-EVA ou Evangelion: Robot géant de l’univers de Neon Genesis Evangelio, nécessitant un pilote pour être contrôlée, il s’agit d’une arme, d’un mécha utilisé pour combattre des monstres géants.</p>
