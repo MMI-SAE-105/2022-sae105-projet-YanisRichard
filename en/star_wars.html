@@ -7,7 +7,46 @@
     <title>Star Wars</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Star Wars</h1>
+          <button
+            aria-controls="mainNav"
+            @click="menuIsOpen = ! menuIsOpen"
+            class="header__menuBtn">
+  
+          <nav
+            id="mainNav"
+            x-show="menuIsOpen"
+            x-transition.duration.1000ms
+            class="menu">
+            <ul>
+              <li><a href="evangelion.html">Evangelion</a></li>
+           
+              <li><a href="ikigami.html">Ikigami</a></li>
+           
+              <li><a href="daft_punk.html">Daft Punk</a></li>
+           
+              <li><a href="star_wars.html">Star Wars</a></li>
+           
+              <li><a href="espoirs.html">Hopes</a></li>
+           
+              <li><a href="risques.html">Risks</a></li>
+           
+              <li><a href="contact.html">Contact</a></li>
+           
+              <li><a href="apropos.html">About us</a></li>
+           
+              <li><a href="autresprojets.html">Others Project</a></li>
+         
+              <li><a href="glossaire.html">Glossary</a></li>
+            </ul>
+       </nav>
+      </button>
+    </header> 
+
+    <main>
+    <article>
+
     <img src="/public/img/images-endor/2560x1080-px-atat-battle-of-endor-speeder-bike-wallpaper-preview 1.webp">
    
     <p>This place is an iconic place of the 70’s science-fiction, because it has inspired a scene from the biggest licence with Star Trek and Stargate : we are talking about Star Wars, of course, THE reference in matter of droids, space ships and futuristic weapon such as the lightsaber.</p>
@@ -23,6 +62,8 @@
    
     <p>Since that event, the parc was open un 1968, being a natural reserve for the local biosphere, si it is not rare to see local species, such as stained owl.</p>
     <p>By its localisation, the climate is warm and humid, that gives a permanent brume, essential to the development of the local animals. It is in this forest that the highest tree in the world reigns : Hyperion, the sequoia of 115,5 meters, rules this domain since more of 800 years. Most of the trees that were cut from the forest were used to build houses in San Francisco.</p>
-
+   
+    </article>
+    </main>
 </body>
 </html>
