@@ -8,7 +8,44 @@
   </head>
 
   <body>
-    <main>
+    <header>
+      <h1>Home Page</h1>
+        <button
+          aria-controls="mainNav"
+          @click="menuIsOpen = ! menuIsOpen"
+          class="header__menuBtn">
+
+        <nav
+          id="mainNav"
+          x-show="menuIsOpen"
+          x-transition.duration.1000ms
+          class="menu">
+          <ul>
+            <li><a href="evangelion.html">Evangelion</a></li>
+         
+            <li><a href="ikigami.html">Ikigami</a></li>
+         
+            <li><a href="daft_punk.html">Daft Punk</a></li>
+         
+            <li><a href="star_wars.html">Star Wars</a></li>
+         
+            <li><a href="espoirs.html">Hopes</a></li>
+         
+            <li><a href="risques.html">Risks</a></li>
+         
+            <li><a href="contact.html">Contact</a></li>
+         
+            <li><a href="apropos.html">About us</a></li>
+         
+            <li><a href="autresprojets.html">Others Project</a></li>
+       
+            <li><a href="glossaire.html">Glossary</a></li>
+          </ul>
+     </nav>
+    </button>
+  </header> 
+
+  <main>
     <img src="/public/img/images-ikigami/ikigami 1.webp">
 
     <p>This manga written by Motorô Mase in 2005 tells the story of a Japanese society, in the 2000’s, where the government made a particular law on a vaccine that everyone must take : on the whole population that took the vaccine, one person in a thousand will day at their 18th birthday, to regulate the delinquence, the crimes and to square the society in a « natural way ». One day before the death of the victim, a note is sent to them, so they can spend a last day with their family and friends, the note is called the « Ikigami », and in this story we follow mostly the journey of a delivery-man, that send the deadly note to the family of the victim.</p>
