@@ -6,21 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <title>Accueil</title>
+    <link rel="stylesheet" href="/src/css/style.css">
   </head>
   <body>
 
-    <header>
-      <h1>Accueil</h1>
+    <header class="header">
+      <div class="header__start">
+      <a class="header__start">
+        <img class="header__logo" src="/public/img/icones/Logo.webp">
+      </a>
+      </div>
+
         <button
           aria-controls="mainNav"
-          @click="menuIsOpen = ! menuIsOpen"
+          @click="menuIsOpen = !menuIsOpen"
           class="header__menuBtn"
          >
       
         <nav
           id="mainNav"
           x-show="menuIsOpen"
-          x-transition.duration.1000ms
+          x-transition.duration.700ms
           class="menu"
         >
           <ul>
@@ -48,6 +54,8 @@
     </button>
   </header>  
 
+  <h1>Accueil</h1>
+ 
   <main>
     
     <p>Bienvenue sur Science Fiction For All , notre site consacré à la Science-Fiction ! Vous trouverez sur ce site de nombreux articles sur des oeuvres qui ont posés les bases de ce qu’est la Science-Fiction actuelle !</p>
