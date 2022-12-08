@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
-  <head>
+  
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <title>Accueil</title>
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="/src/css/style.css">
   </head>
+
   <body>
 
     <header class="header">
 
-      <div class="header__start">
-      <a class="header__logo-link" href="/fr/index.html">
+      
+      <a href="/fr/index.html">
         <img class="header__logo" src="/public/img/icones/Logo.webp">
       </a>
 
-      <a class="header__home-link" href="/index.html">
+      <a href="/index.html">
         <img class="header__home" src="/public/img/icones/Bouton menu.webp">
       </a>
-      </div>
 
-      <div class="header__end">
+      <div>
+      <h1>Accueil</h1>
+      </div>
+    </header>
+    
+
         <button
           aria-controls="mainNav"
           @click="menuIsOpen = !menuIsOpen"
-          class="header__menuBtn"
-         >
+          class="menuBtn">
       
         <nav
           id="mainNav"
@@ -57,12 +62,10 @@
             <li><a href="glossaire.html">Glossaire</a></li>
           </ul>
         </nav>
-        </button>
-      </div>
-
-  </header>  
-
-  <h1>Accueil</h1>
+      </button>
+    
+    
+  
  
   <main>
     
@@ -94,7 +97,7 @@
 
   </main>
 
-  <footer>
+  <footer class="footer">
     <h3>Yanis RICHARD MMI1 C1</h3>
     <p>Mailto: <a href="yanis.richard17@gmail.com">yanis.richard17@gmail.com</a></p>
     <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard.</p>
