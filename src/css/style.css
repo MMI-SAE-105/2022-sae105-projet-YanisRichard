@@ -6,9 +6,14 @@
 
 /*Import des Utils*/
 @import "utils/variables.css";
+
 /*Import du Layout*/
+@import "layout/header.css";
+@import "layout/footer.css";
 
 /*Import des Bases*/
+@import "base/main.css";
+@import "base/media.css";
 
 /*Import des Composants*/
-
+@import "components/menu.css";
