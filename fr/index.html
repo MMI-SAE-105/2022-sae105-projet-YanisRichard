@@ -13,11 +13,12 @@
     <header class="header">
 
       <div class="header__start">
-      <a class="header__start">
-        <img class="header__logo" src="/public/img/icones/Logo.webp">
+      <a class="header__logo-link" href="fr/index.html">
+        <img class="header__logo" src="public/img/icones/Logo.webp">
       </a>
       </div>
 
+      <div class="header__end">
         <button
           aria-controls="mainNav"
           @click="menuIsOpen = !menuIsOpen"
@@ -28,8 +29,8 @@
           id="mainNav"
           x-show="menuIsOpen"
           x-transition.duration.700ms
-          class="menu"
-        >
+          class="menu">
+          
           <ul>
             <li><a href="evangelion.html">Evangelion</a></li>
          
@@ -51,8 +52,9 @@
        
             <li><a href="glossaire.html">Glossaire</a></li>
           </ul>
-     </nav>
-    </button>
+        </nav>
+        </button>
+      </div>
 
   </header>  
 
