@@ -1,14 +1,13 @@
 .header {
-    background-color: var(--color-purple);
+    background-color: var(--color-orange);
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
 }
 
-
-.header__logo {
-    display: block;
+.header__end {
+    background-color: var(--color-purple);
 }
