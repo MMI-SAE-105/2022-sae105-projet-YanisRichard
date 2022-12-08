@@ -1,5 +1,9 @@
 header {
-    background-color: var(--color-orange);
+    background-color: var(--color-purple);
     top: 0;
     left: 0;
+}
+
+.title {
+    background-color: var(--color-orange);
 }
