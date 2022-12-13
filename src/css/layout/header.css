@@ -8,3 +8,11 @@ header {
 .title {
     background-color: var(--color-orange);
 }
+
+.header__logo {
+    height: 40px;
+}
+
+.header__home {
+    height: 40px;
+}
