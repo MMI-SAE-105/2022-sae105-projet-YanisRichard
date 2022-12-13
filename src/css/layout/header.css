@@ -11,8 +11,18 @@ header {
 
 .header__logo {
     height: 40px;
+    margin: 10px;
+    left: 20px;
 }
 
 .header__home {
     height: 40px;
+    margin: 10px;
+    right: 20px; 
+}
+
+h1 {
+    font-family: var(--font-chakra-petch);
+    color: var(--color-darkgrey);
+    text-align: center;
 }

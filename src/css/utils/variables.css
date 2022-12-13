@@ -20,7 +20,7 @@
 
     /*Polices de caractère*/
     --font-chakra-petch: 'Chakra Petch', monospace;
-
+    --font-chakra-petch-title: 'Inter', sans-serif;
     /*Variantes de fond*/
     --letter-spacing: 0.05em;
 
