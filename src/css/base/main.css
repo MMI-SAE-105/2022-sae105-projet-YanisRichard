@@ -1,3 +1,7 @@
 html{
     background-color: var(--color-gray);
 }
+
+main>p {
+    font-family: var(--font-chakra-petch);
+}
