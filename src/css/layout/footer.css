@@ -2,4 +2,5 @@ footer {
     background-color: var(--color-purple); 
     bottom: 0;
     left: 0;
+    font-family: var(--font-chakra-petch)
 }
