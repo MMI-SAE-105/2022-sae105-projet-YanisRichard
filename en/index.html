@@ -9,10 +9,22 @@
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
   <body>
+    <header class="header">
+ 
+    <a class="logo__sffa" href="/fr/index.html">
+      <img class="header__logo" src="/public/img/icones/Logo.webp">
+    </a>
 
-    <header>
-      <h1>Home Page</h1>
-        <button
+    <a class="menu__icon" href="/index.html">
+      <img class="header__home" src="/public/img/icones/Bouton menu.webp">
+    </a>
+
+    <div class="title">
+    <h1>Home Page</h1>
+    </div>
+  </header>
+      
+      <button
           aria-controls="mainNav"
           @click="menuIsOpen = ! menuIsOpen"
           class="header__menuBtn">
@@ -45,7 +57,6 @@
           </ul>
      </nav>
     </button>
-  </header> 
 
   <main>
 

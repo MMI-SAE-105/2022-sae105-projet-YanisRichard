@@ -13,12 +13,14 @@ header {
     height: 40px;
     margin: 10px;
     left: 20px;
+    display: block;
 }
 
 .header__home {
     height: 40px;
     margin: 10px;
     right: 20px; 
+    display: block;
 }
 
 h1 {
