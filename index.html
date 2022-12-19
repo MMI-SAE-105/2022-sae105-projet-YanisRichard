@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+    <link rel="stylesheet" href="/src/css/style.css">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,24 @@
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body>
-    <ul>
-        <li><a href="/fr/index.html" onclick="document.cookie = 'nf_lang=fr; path=/'">Page d'Accueil</a></li>
-        <li><a href="/en/index.html" onclick="document.cookie = 'nf_lang=en; path=/'">Home Page</a></li>
-    </ul>
+    <header class="header">
+           
+        <a class="logo__sffa__base" href="/fr/index.html">
+            <img class="header__logo" src="/public/img/icones/Logo.webp">
+        </a>
+        
+        <div class="title"></div>
+            <h1>Langage/Language</h1>
+        </div>
+    </header>
+
+    <main>
+    
+        <ul>
+            <li><a href="/fr/index.html" onclick="document.cookie = 'nf_lang=fr; path=/'">Page d'Accueil</a></li>
+            <li><a href="/en/index.html" onclick="document.cookie = 'nf_lang=en; path=/'">Home Page</a></li>
+        </ul>
+    </main>
+
 </body>
 </html>

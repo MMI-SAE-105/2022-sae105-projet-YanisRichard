@@ -6,6 +6,10 @@ main>p {
     font-family: var(--font-chakra-petch);
 }
 
+main>ul {
+    font-family: var(--font-chakra-petch);
+}
+
 nav[class="menu"] {
     font-family: var(--font-chakra-petch);
 }
@@ -15,6 +19,4 @@ main>img {
     margin-right: auto;
     width: 70% ;
     display: block;
-    
-
 } 
