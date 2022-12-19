@@ -11,8 +11,10 @@ nav[class="menu"] {
 }
 
 main>img {
+    margin-left: auto;
+    margin-right: auto;
     width: 70% ;
     display: block;
     
 
-}
+} 
