@@ -4,3 +4,11 @@ footer {
     left: 0;
     font-family: var(--font-chakra-petch)
 }
+
+h3 {
+    color: var(--color-darkgrey);
+}
+
+p {
+    color: var(--color-darkgrey);
+}
