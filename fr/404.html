@@ -1,7 +1,24 @@
 <!DOCTYPE html>
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-<title>404 - Page Non trouvée</title>
-<h1>Page Non trouvée</h1>
+<header class="header">
+    <title>404 - Page Non trouvée</title>
+ 
+    <a class="logo__sffa" href="/fr/index.html">
+      <img class="header__logo" src="/public/img/icones/Logo.webp">
+    </a>
+      
+      <a class="icones" href="/index.html">
+        <img class="header__home" src="/public/img/icones/Bouton_menu.webp">
+      </a>
+               
+  </header>
+  
+   <div class="title">
+    <h1>Page Non Trouvée</h1>
+   </div>
+
+
+
 <form action="https://yanis-richard.fr/" method="GET" 
     x-data="{ q:'', }" 
     x-on:submit="q = q + ' site:mmimontbeliard.com'">
