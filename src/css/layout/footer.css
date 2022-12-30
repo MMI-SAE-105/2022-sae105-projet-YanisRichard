@@ -5,10 +5,10 @@ footer {
     font-family: var(--font-chakra-petch)
 }
 
-h3 {
-    color: var(--color-darkgrey);
+footer>h3 {
+    color: var(--color-green);
 }
 
-p {
-    color: var(--color-darkgrey);
+footer>p {
+    color: var(--color-green);
 }
