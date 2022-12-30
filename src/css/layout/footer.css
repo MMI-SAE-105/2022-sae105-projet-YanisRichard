@@ -6,9 +6,9 @@ footer {
 }
 
 footer>h3 {
-    color: var(--color-green);
+    color: var(--color-black);
 }
 
 footer>p {
-    color: var(--color-green);
-}
+    color: var(--color-black);
+    }
