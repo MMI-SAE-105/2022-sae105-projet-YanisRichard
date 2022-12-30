@@ -7,7 +7,59 @@
     <title>Espoirs</title>
     <link rel="stylesheet" href="/src/css/style.css">
 </head>
+
+<header class="header">
+ 
+    <a class="logo__sffa" href="/fr/index.html">
+      <img class="header__logo" src="/public/img/icones/Logo.webp">
+    </a>
+      
+      <a class="icones" href="/index.html">
+        <img class="header__home" src="/public/img/icones/Bouton_menu.webp">
+      </a>
+               
+  </header>
+  
+   <div class="title">
+    <h1>Espoirs</h1>
+   </div>
+
+   <button
+            aria-controls="mainNav"
+            @click="menuIsOpen = ! menuIsOpen"
+            class="header__menuBtn">
+  
+          <nav
+            id="mainNav"
+            x-show="menuIsOpen"
+            x-transition.duration.1000ms
+            class="menu">
+            <ul>
+              <li><a href="evangelion.html">Evangelion</a></li>
+           
+              <li><a href="ikigami.html">Ikigami</a></li>
+           
+              <li><a href="daft_punk.html">Daft Punk</a></li>
+           
+              <li><a href="star_wars.html">Star Wars</a></li>
+           
+              <li><a href="espoirs.html">Espoirs</a></li>
+           
+              <li><a href="risques.html">Risques</a></li>
+           
+              <li><a href="contact.html">Contact</a></li>
+           
+              <li><a href="apropos.html">A Propos de Nous</a></li>
+           
+              <li><a href="autresprojets.html">Autres Projets</a></li>
+         
+              <li><a href="glossaire.html">Glossaire</a></li>
+            </ul>
+          </nav>
+        </button>
+        
 <body>
+    <main>
     <img src="/public/img/images-utopie/star_wars___bespin_cloud_city_by_mirko77-d8ot5or 1.webp">
     
     <p>La nature de la science-fiction, de prime abord, peut paraître assez simple et infantile, un exemple de clichés seraient de grandes machines et des vaisseaux se battants avec des lasers dans l’espace, pour résumer des œuvres comme Goldorak, Star Wars ou Godzilla, ce qui est un peu réducteur vis-à-vis de ces œuvres. </p>
@@ -24,6 +76,8 @@
     <p>Cela donne donc matière à réfléchir sur la cohérence d’un futur décrit par un univers fictif, après tout, nous évoluons constamment dans un monde enclin à la technologie, et son impact se fait ressentir, par les objets connectés par exemple, ou l’apparition de prothèses remplaçant des membres perdus. L’influence d’Internet sur la société est d’ailleurs un bon exemple.</p>
     
     <p>Ainsi, la science-fiction paraît moins lointaine de notre réalité, et peut faire naître en nous l’espoir d’un monde où la technologie, à notre service, améliorera l’humain pour l’aider dans les moindres aspects de sa vie, par des prothèses ou des imprimantes 3D pour l’instant, mais par de plus grandes inventions à l’avenir.</p>
+    </main>
+</body>
 
 <footer>
     <h3>Yanis RICHARD MMI1 C1</h3>
@@ -31,5 +85,4 @@
     <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard.</p>
 </footer>
 
-</body>
 </html>
