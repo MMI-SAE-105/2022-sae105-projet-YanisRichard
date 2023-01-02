@@ -1,8 +1,11 @@
 footer {
+    position: absolute;
     background-color: var(--color-purple); 
-    bottom: 0;
+    bottom: auto;
     left: 0;
-    font-family: var(--font-chakra-petch)
+    width: 100%;
+    font-family: var(--font-chakra-petch);
+    padding: 15px
 }
 
 footer>h3 {
@@ -12,3 +15,7 @@ footer>h3 {
 footer>p {
     color: var(--color-black);
     }
+
+footer>p>a {
+    color: var(--color-green);
+}
