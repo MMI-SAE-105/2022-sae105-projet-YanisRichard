@@ -9,6 +9,10 @@ html{
     top: 40px;
 }
 
+main>p>a {
+    color: var(--color-green);
+}
+
 main>p {
     font-family: var(--font-chakra-petch);
 }
