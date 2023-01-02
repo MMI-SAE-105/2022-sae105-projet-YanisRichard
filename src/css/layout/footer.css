@@ -5,15 +5,15 @@ footer {
     left: 0;
     width: 100%;
     font-family: var(--font-chakra-petch);
-    padding: 15px
+    padding: 15px;
 }
 
 footer>h3 {
-    color: var(--color-black);
+    color: var(--color-white);
 }
 
 footer>p {
-    color: var(--color-black);
+    color: var(--color-white);
     }
 
 footer>p>a {
