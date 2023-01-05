@@ -38,3 +38,8 @@ main>img {
     margin-right: auto;
     display: block;
 }
+
+.formulaire {
+    font-family: var(--font-chakra-petch);
+    
+}
