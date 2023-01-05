@@ -39,7 +39,7 @@ main>img {
     display: block;
 }
 
-.formulaire {
+.formulaire>div {
     font-family: var(--font-chakra-petch);
-    
+
 }
