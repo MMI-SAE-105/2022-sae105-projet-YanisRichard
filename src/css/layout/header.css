@@ -37,3 +37,7 @@ h1 {
     text-align: center;
 }
 
+a {
+    font-family: var(--font-chakra-petch);
+    color: var(--color-darkgrey);
+}
