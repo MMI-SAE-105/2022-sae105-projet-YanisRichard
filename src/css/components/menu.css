@@ -2,6 +2,8 @@ menu>ul>li {
     font-family: var(--font-chakra-petch);
 }
 
-.menuBtn{
-    color: var(--color-green-);
+.header__menuBtn{
+    position:relative;
+    bottom: 7px;
+    padding: 15px;
 }

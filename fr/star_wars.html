@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Star Wars</title>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <link rel="stylesheet" href="/src/css/style.css">
   </head>
 
@@ -25,15 +26,16 @@
   <h1>Star Wars</h1>
  </div>
         
-    <button
+  <button
     aria-controls="mainNav"
-    @click="menuIsOpen = ! menuIsOpen"
+    @click="menuIsOpen = !menuIsOpen"
     class="header__menuBtn">
+  </button>
   
     <nav
     id="mainNav"
     x-show="menuIsOpen"
-    x-transition.duration.1000ms
+    x-transition.duration.100ms
     class="menu">
     <ul>
       <li><a href="evangelion.html">Evangelion</a></li>
@@ -48,7 +50,7 @@
       <li><a href="glossaire.html">Glossaire</a></li>
     </ul>
     </nav>
-  </button>
+
 
 
   <body>
@@ -61,7 +63,7 @@
       <img src="/public/img/images-endor/EndorShieldGeneratorBunker 2.webp">
    
       <p>Cette forêt a la particularité de posséder des arbres pouvant atteindre les 2000 ans et dépasser une centaine de mètres de hauteur, ce qui en fait un lieu de tournage parfait pour une jungle ou un décor sylvestre, tant les proportions semblent irréelles.</p>
-      <p>Ce lieu est situé au nord de la  Californie, près de l’Oregon, et recouvre environ 534 km² de forêt, il s’agit d’un lieu visité par de nombreux fans, faisant partie du patrimoine mondial de l’UNSECO depuis 1980.</p>
+      <p>Ce lieu est situé au nord de la  Californie, près de l’Oregon, et recouvre environ 534 km² de forêt, il s’agit d’un lieu visité par de nombreux fans, faisant partie du patrimoine mondial de l’UNESCO depuis 1980.</p>
       <p>L’histoire de cette forêt remonte aux années 1850, lorsque celle-ci recouvrait plus de 8100 km², elle attira beaucoup de bûcherons américains jusqu’aux années 20, où l’organisation Save-the-Redwood League décide de manifester afin de sauver ce qu’il reste de la forêt actuelle.</p>
     
       <img src="/public/img/images-endor/endor-night 1.webp">
