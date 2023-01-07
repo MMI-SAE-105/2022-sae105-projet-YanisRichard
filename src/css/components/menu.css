@@ -3,7 +3,11 @@ menu>ul>li {
 }
 
 .header__menuBtn{
-    position:relative;
-    bottom: 7px;
-    padding: 15px;
+    background-color: var(--color-green);
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    top: 74px;
+    right: 35px;
+   
 }
