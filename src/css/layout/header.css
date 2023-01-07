@@ -39,5 +39,15 @@ h1 {
 
 a {
     font-family: var(--font-chakra-petch);
-    color: var(--color-darkgrey);
+    color: var(--color-black);
+}
+
+.page__fr {
+    position: relative;
+    left: 150px;
+}
+
+.page__en {
+    position: relative;
+    left: 150px;
 }
