@@ -8,59 +8,40 @@
     <link rel="stylesheet" href="/src/css/style.css">
 </head>
 
+<body>
 <header class="header">
- 
   <a class="logo__sffa" href="/fr/index.html">
     <img class="header__logo" src="/public/img/icones/Logo.webp">
   </a>
   <a class="page__en" href="/en/daft_punk.html">En</a>  
     <a class="icones" href="/index.html">
       <img class="header__home" src="/public/img/icones/Bouton_menu.webp">
-    </a>
-             
+    </a>           
 </header>
 
  <div class="title">
   <h1>Daft Punk</h1>
  </div>
 
-          <button
-            aria-controls="mainNav"
-            @click="menuIsOpen = ! menuIsOpen"
-            class="header__menuBtn">
-  
-          <nav
-            id="mainNav"
-            x-show="menuIsOpen"
-            x-transition.duration.1000ms
-            class="menu">
-            <ul>
-              <li><a href="evangelion.html">Evangelion</a></li>
-           
-              <li><a href="ikigami.html">Ikigami</a></li>
-           
-              <li><a href="daft_punk.html">Daft Punk</a></li>
-           
-              <li><a href="star_wars.html">Star Wars</a></li>
-           
-              <li><a href="espoirs.html">Espoirs</a></li>
-           
-              <li><a href="risques.html">Risques</a></li>
-           
-              <li><a href="contact.html">Contact</a></li>
-           
-              <li><a href="apropos.html">A Propos de Nous</a></li>
-           
-              <li><a href="autresprojets.html">Autres Projets</a></li>
-         
-              <li><a href="glossaire.html">Glossaire</a></li>
-            </ul>
-          </nav>
-        </button>
-    </header>
+ <div class="nav-toggle" onclick="documentElement.classList.toggle('menu-open')">
+  <div class="nav-toggle-bar"></div>
+</div>  
 
+  <nav class="menu">
+  <ul>
+    <li><a href="evangelion.html">Evangelion</a></li>
+    <li><a href="ikigami.html">Ikigami</a></li>
+    <li><a href="daft_punk.html">Daft Punk</a></li>
+    <li><a href="star_wars.html">Star Wars</a></li>
+    <li><a href="espoirs.html">Espoirs</a></li>
+    <li><a href="risques.html">Risques</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="apropos.html">A Propos de Nous</a></li>
+    <li><a href="autresprojets.html">Autres Projets</a></li>
+    <li><a href="glossaire.html">Glossaire</a></li>
+  </ul>
+  </nav>
 
-  <body>
     <main>
     <img src="/public/img/images-DaftPunk/interstella5555-haut_1.webp">
     
@@ -80,13 +61,11 @@
     
     <p>Cette chanson illustre parfaitement le regret de perdre un être cher, et le regret de partir, tout en faisant passer un message d’amour malgré la situation critique du personnage. Il s’agit à la fois d’une confession et d’un adieu, mais qui ne veut pas être dramatique : la musique est douce, les paroles sont très simples et la voix calme (que l’on peut enfin entendre clairement) du chanteur invitent à l’acceptation de cette confession et de cette mort, rendant la scène un peu moins triste, malgré l’importance du personnage dans le film</p>
     </main>
-  </body> 
 
-<footer>
-  <h3>Yanis RICHARD MMI1 C1</h3>
-  <p>Mailto: <a href="yanis.richard17@gmail.com">yanis.richard17@gmail.com</a></p>
-  <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard.</p>
-</footer>
-
-</body>
+  <footer>
+    <h3>Yanis RICHARD MMI1 C1</h3>
+    <p>Mailto: <a href="yanis.richard17@gmail.com">yanis.richard17@gmail.com</a></p>
+    <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard.</p>
+  </footer>
+ </body>
 </html>

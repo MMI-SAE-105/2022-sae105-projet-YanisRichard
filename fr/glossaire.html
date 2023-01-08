@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="/src/css/style.css">
   </head>
 
-
-    
+  <body>  
     <header class="header">
  
       <a class="logo__sffa" href="/fr/index.html">
@@ -27,41 +26,25 @@
      </div>
 
 
-        <button
-          aria-controls="mainNav"
-          @click="menuIsOpen = ! menuIsOpen"
-          class="header__menuBtn">
+    <div class="nav-toggle" onclick="documentElement.classList.toggle('menu-open')">
+      <div class="nav-toggle-bar"></div>
+    </div>  
+  
+      <nav class="menu">
+      <ul>
+        <li><a href="evangelion.html">Evangelion</a></li>
+        <li><a href="ikigami.html">Ikigami</a></li>
+        <li><a href="daft_punk.html">Daft Punk</a></li>
+        <li><a href="star_wars.html">Star Wars</a></li>
+        <li><a href="espoirs.html">Espoirs</a></li>
+        <li><a href="risques.html">Risques</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="apropos.html">A Propos de Nous</a></li>
+        <li><a href="autresprojets.html">Autres Projets</a></li>
+        <li><a href="glossaire.html">Glossaire</a></li>
+      </ul>
+      </nav>
 
-        <nav
-          id="mainNav"
-          x-show="menuIsOpen"
-          x-transition.duration.1000ms
-          class="menu">
-          <ul>
-            <li><a href="evangelion.html">Evangelion</a></li>
-         
-            <li><a href="ikigami.html">Ikigami</a></li>
-         
-            <li><a href="daft_punk.html">Daft Punk</a></li>
-         
-            <li><a href="star_wars.html">Star Wars</a></li>
-         
-            <li><a href="espoirs.html">Espoirs</a></li>
-         
-            <li><a href="risques.html">Risques</a></li>
-         
-            <li><a href="contact.html">Contact</a></li>
-         
-            <li><a href="apropos.html">A Propos de Nous</a></li>
-         
-            <li><a href="autresprojets.html">Autres Projets</a></li>
-       
-            <li><a href="glossaire.html">Glossaire</a></li>
-          </ul>
-        </nav>
-        </button>
-    
-    <body>
     <main>
         <p>-Anges: Dans l’univers de Neon Genesis Evangelion, il s’agit de créatures divines géantes menaçant le monde et l’humanité. Pour riposter, cette dernière leur envoie des Evangelions, afin de les pourfendre et de sauver ce qu’il reste des hommes.</p>
         <p>-EVA ou Evangelion: Robot géant de l’univers de Neon Genesis Evangelio, nécessitant un pilote pour être contrôlée, il s’agit d’une arme, d’un mécha utilisé pour combattre des monstres géants.</p>
@@ -74,11 +57,12 @@
         <p>-Godzilla:  Monstre Géant, ou Kaiju, le plus connu du monde, il s’agit d’un lézard géant capable de cracher des rayons lasers, et de soulever des immeubles. Il affronte souvent d’autres “Kaijus” pour sa propre survie, et a notamment affronté King Kong au cours de sa vie fictive.</p>
         <p>-Goldorak: Dessin animé dans lequel un robot géant est piloté par un jeune homme afin de défendre la Terre d’extra-terrestre. Tout comme Albator, il a grandement influencé la culture Pop des années 80.</p>
     </main>
-    </body>
+    
 
     <footer>
       <h3>Yanis RICHARD MMI1 C1</h3>
       <p>Mailto: <a href="yanis.richard17@gmail.com">yanis.richard17@gmail.com</a></p>
       <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard.</p>
     </footer>
+  </body>
 </html>

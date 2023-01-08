@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/src/css/style.css">
 </head>
 
+<body>
 <header class="header">
  
     <a class="logo__sffa" href="/fr/index.html">
@@ -24,41 +25,25 @@
     <h1>Espoirs</h1>
    </div>
 
-   <button
-            aria-controls="mainNav"
-            @click="menuIsOpen = ! menuIsOpen"
-            class="header__menuBtn">
-  
-          <nav
-            id="mainNav"
-            x-show="menuIsOpen"
-            x-transition.duration.1000ms
-            class="menu">
-            <ul>
-              <li><a href="evangelion.html">Evangelion</a></li>
-           
-              <li><a href="ikigami.html">Ikigami</a></li>
-           
-              <li><a href="daft_punk.html">Daft Punk</a></li>
-           
-              <li><a href="star_wars.html">Star Wars</a></li>
-           
-              <li><a href="espoirs.html">Espoirs</a></li>
-           
-              <li><a href="risques.html">Risques</a></li>
-           
-              <li><a href="contact.html">Contact</a></li>
-           
-              <li><a href="apropos.html">A Propos de Nous</a></li>
-           
-              <li><a href="autresprojets.html">Autres Projets</a></li>
-         
-              <li><a href="glossaire.html">Glossaire</a></li>
-            </ul>
-          </nav>
-        </button>
+   <div class="nav-toggle" onclick="documentElement.classList.toggle('menu-open')">
+    <div class="nav-toggle-bar"></div>
+  </div>  
+
+    <nav class="menu">
+    <ul>
+      <li><a href="evangelion.html">Evangelion</a></li>
+      <li><a href="ikigami.html">Ikigami</a></li>
+      <li><a href="daft_punk.html">Daft Punk</a></li>
+      <li><a href="star_wars.html">Star Wars</a></li>
+      <li><a href="espoirs.html">Espoirs</a></li>
+      <li><a href="risques.html">Risques</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="apropos.html">A Propos de Nous</a></li>
+      <li><a href="autresprojets.html">Autres Projets</a></li>
+      <li><a href="glossaire.html">Glossaire</a></li>
+    </ul>
+    </nav>
         
-<body>
     <main>
     <img src="/public/img/images-utopie/star_wars___bespin_cloud_city_by_mirko77-d8ot5or 1.webp">
     
@@ -77,12 +62,11 @@
     
     <p>Ainsi, la science-fiction paraît moins lointaine de notre réalité, et peut faire naître en nous l’espoir d’un monde où la technologie, à notre service, améliorera l’humain pour l’aider dans les moindres aspects de sa vie, par des prothèses ou des imprimantes 3D pour l’instant, mais par de plus grandes inventions à l’avenir.</p>
     </main>
-</body>
 
 <footer>
     <h3>Yanis RICHARD MMI1 C1</h3>
     <p>Mailto: <a href="yanis.richard17@gmail.com">yanis.richard17@gmail.com</a></p>
     <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard.</p>
 </footer>
-
+</body>
 </html>

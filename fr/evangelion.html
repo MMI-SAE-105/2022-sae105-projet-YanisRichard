@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/src/css/style.css">
   </head>
 
+  <body>
   <header class="header">
  
     <a class="logo__sffa" href="/fr/index.html">
@@ -24,44 +25,25 @@
     <h1>Evangelion</h1>
    </div>
 
-  
-      
-          <button
-            aria-controls="mainNav"
-            @click="menuIsOpen = ! menuIsOpen"
-            class="header__menuBtn">
-  
-          <nav
-            id="mainNav"
-            x-show="menuIsOpen"
-            x-transition.duration.1000ms
-            class="menu">
-            <ul>
-              <li><a href="evangelion.html">Evangelion</a></li>
-           
-              <li><a href="ikigami.html">Ikigami</a></li>
-           
-              <li><a href="daft_punk.html">Daft Punk</a></li>
-           
-              <li><a href="star_wars.html">Star Wars</a></li>
-           
-              <li><a href="espoirs.html">Espoirs</a></li>
-           
-              <li><a href="risques.html">Risques</a></li>
-           
-              <li><a href="contact.html">Contact</a></li>
-           
-              <li><a href="apropos.html">A Propos de Nous</a></li>
-           
-              <li><a href="autresprojets.html">Autres Projets</a></li>
-         
-              <li><a href="glossaire.html">Glossaire</a></li>
-            </ul>
-          </nav>
-        </button>
-      
+   <div class="nav-toggle" onclick="documentElement.classList.toggle('menu-open')">
+    <div class="nav-toggle-bar"></div>
+  </div>  
 
-   <body>
+    <nav class="menu">
+    <ul>
+      <li><a href="evangelion.html">Evangelion</a></li>
+      <li><a href="ikigami.html">Ikigami</a></li>
+      <li><a href="daft_punk.html">Daft Punk</a></li>
+      <li><a href="star_wars.html">Star Wars</a></li>
+      <li><a href="espoirs.html">Espoirs</a></li>
+      <li><a href="risques.html">Risques</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="apropos.html">A Propos de Nous</a></li>
+      <li><a href="autresprojets.html">Autres Projets</a></li>
+      <li><a href="glossaire.html">Glossaire</a></li>
+    </ul>
+    </nav>
+
     <main>
       <img src="/public/img/images-eva/The End of Evangelion 1.webp">
       
@@ -86,11 +68,12 @@
       <p>Ce film est un chef d’œuvre de science-fiction, qui utilise le genre très connu du mécha pour le revisiter et y apporter une note tragique et philosophique, ce qui a le mérite d’être original à une époque ou la science-fiction commence à s’intégrer dans la pop-culture, nous y voyons des technologies démesurées, des villes artificielles immenses, des robots grands de dizaines de mètres, et tout cela sur le fond de la vie d’un jeune garçon qui se pose beaucoup de questions. Voici les raisons pour lesquelles The End of Evangelion est un classique de la science-fiction.</p>
       
     </main>
-   </body>
+   
 
     <footer>
       <h3>Yanis RICHARD MMI1 C1</h3>
       <p>Mailto: <a href="yanis.richard17@gmail.com">yanis.richard17@gmail.com</a></p>
       <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard.</p>
     </footer>
+  </body>
 </html>

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/src/css/style.css">
 </head>
 
-  
+  <body>
 
   <header class="header">
  
@@ -28,45 +28,26 @@
       <h1>Accueil</h1>
     </div>
 
+    <div class="nav-toggle" onclick="documentElement.classList.toggle('menu-open')">
+      <div class="nav-toggle-bar"></div>
+    </div>  
+  
+      <nav class="menu">
+      <ul>
+        <li><a href="evangelion.html">Evangelion</a></li>
+        <li><a href="ikigami.html">Ikigami</a></li>
+        <li><a href="daft_punk.html">Daft Punk</a></li>
+        <li><a href="star_wars.html">Star Wars</a></li>
+        <li><a href="espoirs.html">Espoirs</a></li>
+        <li><a href="risques.html">Risques</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="apropos.html">A Propos de Nous</a></li>
+        <li><a href="autresprojets.html">Autres Projets</a></li>
+        <li><a href="glossaire.html">Glossaire</a></li>
+      </ul>
+      </nav>
     
 
-  <button
-     aria-controls="mainNav"
-     @click="menuIsOpen = !menuIsOpen"
-     class="menuBtn">
-    
-        <nav
-          id="mainNav"
-          x-show="menuIsOpen"
-          x-transition.duration.700ms
-          class="menu">
-          
-          <ul>
-            <li><a href="evangelion.html">Evangelion</a></li>
-         
-            <li><a href="ikigami.html">Ikigami</a></li>
-         
-            <li><a href="daft_punk.html">Daft Punk</a></li>
-         
-            <li><a href="star_wars.html">Star Wars</a></li>
-         
-            <li><a href="espoirs.html">Espoirs</a></li>
-         
-            <li><a href="risques.html">Risques</a></li>
-         
-            <li><a href="contact.html">Contact</a></li>
-         
-            <li><a href="apropos.html">A Propos</a></li>
-         
-            <li><a href="autresprojets.html">Autres Projets</a></li>
-       
-            <li><a href="glossaire.html">Glossaire</a></li>
-          </ul>
-        </nav>
-  </button>
-    
-    
-<body>
   <main>
     
     <p>Bienvenue sur Science Fiction For All , notre site consacré à la Science-Fiction ! Vous trouverez sur ce site de nombreux articles sur des oeuvres qui ont posés les bases de ce qu’est la Science-Fiction actuelle !</p>
@@ -96,12 +77,13 @@
     <p>Enfin, si vous êtes intéressés par qui nous sommes, et quels sont les projets similaires à celui-ci, je vous invite à consulter <a href="apropos.html">cet article</a>.</p>
 
   </main>
-</body>
+
 
   <footer class="footer">
     <h3>Yanis RICHARD MMI1 C1</h3>
     <p>Mailto: <a href="yanis.richard17@gmail.com">yanis.richard17@gmail.com</a></p>
     <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard.</p>
   </footer>
+  </body>
   
 </html>

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/src/css/style.css">
 </head>
 
+<body>
 <header class="header">
  
   <a class="logo__sffa" href="/fr/index.html">
@@ -25,42 +26,26 @@
   <h1>A Propos</h1>
  </div>
 
-      
-          <button
-            aria-controls="mainNav"
-            @click="menuIsOpen = ! menuIsOpen"
-            class="header__menuBtn">
-  
-          <nav
-            id="mainNav"
-            x-show="menuIsOpen"
-            x-transition.duration.1000ms
-            class="menu">
-            <ul>
-              <li><a href="evangelion.html">Evangelion</a></li>
-           
-              <li><a href="ikigami.html">Ikigami</a></li>
-           
-              <li><a href="daft_punk.html">Daft Punk</a></li>
-           
-              <li><a href="star_wars.html">Star Wars</a></li>
-           
-              <li><a href="espoirs.html">Espoirs</a></li>
-           
-              <li><a href="risques.html">Risques</a></li>
-           
-              <li><a href="contact.html">Contact</a></li>
-           
-              <li><a href="apropos.html">A Propos de Nous</a></li>
-           
-              <li><a href="autresprojets.html">Autres Projets</a></li>
-         
-              <li><a href="glossaire.html">Glossaire</a></li>
-            </ul>
-          </nav>
-        </button>
+ <div class="nav-toggle" onclick="documentElement.classList.toggle('menu-open')">
+  <div class="nav-toggle-bar"></div>
+</div>  
+
+  <nav class="menu">
+  <ul>
+    <li><a href="evangelion.html">Evangelion</a></li>
+    <li><a href="ikigami.html">Ikigami</a></li>
+    <li><a href="daft_punk.html">Daft Punk</a></li>
+    <li><a href="star_wars.html">Star Wars</a></li>
+    <li><a href="espoirs.html">Espoirs</a></li>
+    <li><a href="risques.html">Risques</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="apropos.html">A Propos de Nous</a></li>
+    <li><a href="autresprojets.html">Autres Projets</a></li>
+    <li><a href="glossaire.html">Glossaire</a></li>
+  </ul>
+  </nav>
         
-  <body>
+  
     <main>
     <p>Le Créateur de ce site s’appelle Yanis RICHARD, actuellement présent en BUT MMI, dans la classe C1 des premières années 2022. 
 
