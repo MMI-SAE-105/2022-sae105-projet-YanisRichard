@@ -8,6 +8,14 @@ menu>ul>li {
     height: 30px;
     position:absolute;
     top: 74px;
-    right: 35px;
-   
+    right: 35px;  
+}
+
+.nav_toggle {
+    background-color: var(--color-green);
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    top: 30px;
+    right: 30px;
 }

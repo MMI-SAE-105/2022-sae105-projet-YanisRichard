@@ -26,12 +26,10 @@
   <h1>Star Wars</h1>
  </div>
         
-  <button
-    aria-controls="mainNav"
-    @click="menuIsOpen = !menuIsOpen"
-    class="header__menuBtn">
-  </button>
-  
+  <div class="nav-toggle">
+    <div class="nav-toggle-bar"></div>
+  </div>  
+
     <nav
     id="mainNav"
     x-show="menuIsOpen"
