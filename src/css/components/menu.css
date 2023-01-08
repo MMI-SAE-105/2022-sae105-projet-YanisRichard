@@ -3,7 +3,7 @@ menu>ul>li {
 }
 
 .nav-toggle {
-    background-color: var(--color-green);
+  
     width: 30px;
     height: 30px;
     position:absolute;
