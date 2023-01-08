@@ -5,17 +5,21 @@ footer {
     left: 0;
     width: 100%;
     font-family: var(--font-chakra-petch);
-    padding: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 footer>h3 {
     color: var(--color-white);
+    padding: 10px
 }
 
 footer>p {
     color: var(--color-white);
+    padding: 10px;
     }
 
 footer>p>a {
     color: var(--color-green);
+    padding: 10px;
 }
