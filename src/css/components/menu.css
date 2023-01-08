@@ -25,6 +25,7 @@ menu>ul>li {
     height: 2px;
     position: absolute;
     left: 0;
+    transition: all .4s ease-in-out;
 }
 
 .nav-toggle-bar::before {
@@ -34,6 +35,18 @@ menu>ul>li {
 .nav-toggle-bar::after {
     top: 10px;
 }
+
+.menu-open .nav-toggle-bar
+ {
+    transform: rotate(135deg);
+}
+
+.menu-open .nav-toggle-bar::before,
+.menu-open .nav-toggle-bar::after {
+    transform: rotate(90deg);
+    top: 0;
+}
+
 
 .menu{
     background-color: var(--color-green);
@@ -46,7 +59,7 @@ menu>ul>li {
     align-items: center;
     justify-content: center;
     transform: translateX(100vw);
-    transition: all 1s;
+    transition: all .4s;
     z-index: 1;
 }
 
@@ -54,6 +67,10 @@ menu>ul>li {
     transform: translateX(0);
 }
 
+.menu-open,
+.menu-open body{
+    overflow: hidden;
+}
 .menu ul {
     list-style: none;
     margin: 0;
@@ -63,6 +80,12 @@ menu>ul>li {
 
 .menu.li {
     margin-bottom: 30px;
-
+    transform: translateX(30px);
+    opacity: 0;
+    transition: all .4s ease;
 }
 
+.menu-open .menu li {
+    transform: translateX(0);
+    opacity: 1;
+}
