@@ -9,11 +9,6 @@ html{
     top: 40px;
 }
 
-main {
-    position: relative;
-    padding: 45px;
-}
-
 main>p>a {
     color: var(--color-green);
 }
