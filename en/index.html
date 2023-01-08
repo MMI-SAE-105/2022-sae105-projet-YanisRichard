@@ -9,7 +9,7 @@
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
 
-
+<body>
   <header class="header">
  
     <a class="logo__sffa" href="/en/index.html">
@@ -26,42 +26,25 @@
     <h1>Home Page</h1>
   </div>
   
-      
-      <button
-          aria-controls="mainNav"
-          @click="menuIsOpen = ! menuIsOpen"
-          class="header__menuBtn">
-
-        <nav
-          id="mainNav"
-          x-show="menuIsOpen"
-          x-transition.duration.1000ms
-          class="menu">
-          <ul>
-            <li><a href="evangelion.html">Evangelion</a></li>
-         
-            <li><a href="ikigami.html">Ikigami</a></li>
-         
-            <li><a href="daft_punk.html">Daft Punk</a></li>
-         
-            <li><a href="star_wars.html">Star Wars</a></li>
-         
-            <li><a href="hopes.html">Hopes</a></li>
-         
-            <li><a href="risks.html">Risks</a></li>
-         
-            <li><a href="contact.html">Contact</a></li>
-         
-            <li><a href="about.html">About us</a></li>
-         
-            <li><a href="otherprojects.html">Others Project</a></li>
-       
-            <li><a href="glossary.html">Glossary</a></li>
-          </ul>
-     </nav>
-    </button>
-
-<body>
+  <div class="nav-toggle" onclick="documentElement.classList.toggle('menu-open')">
+    <div class="nav-toggle-bar"></div>
+  </div>  
+  
+    <nav class="menu">
+    <ul>
+      <li><a href="/en/evangelion.html">Evangelion</a></li>
+      <li><a href="/en/ikigami.html">Ikigami</a></li>
+      <li><a href="/en/daft_punk.html">Daft Punk</a></li>
+      <li><a href="/en/star_wars.html">Star Wars</a></li>
+      <li><a href="/en/hopes.html">Hopes</a></li>
+      <li><a href="/en/risks.html">Risks</a></li>
+      <li><a href="/en/contact.html">Contact</a></li>
+      <li><a href="/en/about.html">About Us</a></li>
+      <li><a href="/en/otherprojects.html">Other Projects</a></li>
+      <li><a href="/en/glossary.html">Glossary</a></li>
+    </ul>
+    </nav>
+    
   <main>
 
     <p> Welcome on Science Fiction For All, our website consecrated to Science-Fiction ! On this website, you will find many articles on some works that based the modern Science-Fiction !  </p>
@@ -91,12 +74,13 @@
     <p>Finally, if you are interested by who made this website, and some others similar projects, you can consult <a href="/en/otherprojects.html">This article</a>.  </p>
   
   </main>
-</body>
+
 
   <footer>
     <h3>Yanis RICHARD MMI1 C1</h3>
     <p>Mailto: <a href="yanis.richard17@gmail.com">yanis.richard17@gmail.com</a></p>
     <p>Project realised in a pedagogic exercice, at the MMI Department of Montbéliard.</p>
   </footer>
+</body>
   
 </html>
